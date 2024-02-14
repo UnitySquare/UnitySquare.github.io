@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1688 height=780 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/ball-sim.loader.js";
       var config = {
-        dataUrl: buildUrl + "/ball-sim.data",
-        frameworkUrl: buildUrl + "/ball-sim.framework.js",
-        codeUrl: buildUrl + "/ball-sim.wasm",
+        dataUrl: buildUrl + "/ball-sim.data.br",
+        frameworkUrl: buildUrl + "/ball-sim.framework.js.br",
+        codeUrl: buildUrl + "/ball-sim.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Lolda",
         productName: "TheBalls",
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1688px";
+        canvas.style.height = "780px";
       }
 
       loadingBar.style.display = "block";
