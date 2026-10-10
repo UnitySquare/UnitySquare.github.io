@@ -10,14 +10,14 @@ Korean / 한국어: Unitdice는 대한민국 광주에 있는 초기 스타트�
 - AI-driven services: Services with AI inside, like an assistant that answers questions from your documents, and services we build with AI, like delivery route optimization.
 
 ## Products
-- [RAG assistant](https://chat.unitdice.com/): A retrieval-augmented question-answering assistant built with LangGraph.
-- [Ball Sim](https://www.unitdice.com/game): A ball game in development. The lobby, shop, inventory and achievements are ready to look around; gameplay comes next.
-- [Gwangju delivery route optimizer](https://www.unitdice.com/delivery/): Computes optimized parcel delivery routes across Gwangju.
+- [Galaxy S25 Assistant](https://chat.unitdice.com/): An AI chatbot that answers questions from the Galaxy S25 user manual. Pick Fast mode for quick answers or Careful + Web mode to also check the web.
+- [Ball Sim](https://unitdice.com/game): A ball game in development. The lobby, shop, inventory and achievements are ready to look around; gameplay comes next.
+- [Gwangju delivery route comparison](https://unitdice.com/delivery/): Compares an exact method and a cluster-based method on the same stops over Gwangju's real road network. Routes come out up to 92% shorter than visiting stops in no particular order.
 - [IT helpdesk booking](https://help.unitdice.com/): Book IT helpdesk visits by office in one-hour slots. Google Sheets works as the database: bookings are saved to the sheet, open slots are read from it, and admins manage bookings right in the sheet.
 
 ## Pages
-- [English](https://www.unitdice.com/)
-- [한국어](https://www.unitdice.com/ko/)
+- [English](https://unitdice.com/)
+- [한국어](https://unitdice.com/ko/)
 
 ## Contact
 - Email: contact@unitdice.com

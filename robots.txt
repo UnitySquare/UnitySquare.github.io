@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.unitdice.com/sitemap.xml
+Sitemap: https://unitdice.com/sitemap.xml
