@@ -13,6 +13,7 @@ Korean / 한국어: Unitdice는 대한민국 광주에 있는 초기 스타트�
 - [RAG assistant](https://chat.unitdice.com/): A retrieval-augmented question-answering assistant built with LangGraph.
 - [Ball Sim](https://www.unitdice.com/game): A ball game in development. The lobby, shop, inventory and achievements are ready to look around; gameplay comes next.
 - [Gwangju delivery route optimizer](https://www.unitdice.com/delivery/): Computes optimized parcel delivery routes across Gwangju.
+- [IT helpdesk booking](https://help.unitdice.com/): Book IT helpdesk visits by office in one-hour slots. Google Sheets works as the database: bookings are saved to the sheet, open slots are read from it, and admins manage bookings right in the sheet.
 
 ## Pages
 - [English](https://www.unitdice.com/)

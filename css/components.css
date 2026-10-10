@@ -94,7 +94,8 @@
 @keyframes glowp { 50% { filter: drop-shadow(0 0 16px rgba(240,56,75,.95)); } }
 
 /* Products */
-.products { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; perspective: 1200px; }
+.products { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; perspective: 1200px; }
+.product { min-height: 15rem; }
 .product { padding: 1.75rem; display: flex; flex-direction: column; min-height: 17rem; transform-style: preserve-3d; }
 .product .meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.5rem; }
 .chip { font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.7rem; border-radius: 999px; background: rgba(240,56,75,.14); color: #FFB3BB; border: 1px solid rgba(240,56,75,.32); }
