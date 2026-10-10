@@ -7,6 +7,7 @@ import { initEffects } from './effects.js';
 import { initVideoPreview } from './video-preview.js';
 import { initLightbox } from './lightbox.js';
 import { initNav } from './nav.js';
+import { initMail } from './mail.js';
 
 const hero = initHeroCanvas();
 initHeadline();               // listens for language changes
@@ -16,4 +17,5 @@ initEffects();
 initVideoPreview();
 initLightbox();
 initNav();
+initMail();
 document.getElementById('year').textContent = new Date().getFullYear();

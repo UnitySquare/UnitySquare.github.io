@@ -172,3 +172,11 @@ footer .brand { font-size: 1.1rem; color: var(--ink); margin-bottom: 0.75rem; }
 footer p { margin: 0; }
 footer address { font-style: normal; text-align: right; }
 footer a { color: var(--muted); }
+
+/* Notice shown after an email link copies the address */
+.toast { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 24px); z-index: 60; max-width: calc(100vw - 32px); padding: .75rem 1.1rem; border: 1px solid var(--edge); border-radius: 999px; background: rgba(10,12,28,.94); color: var(--ink); font: 500 .95rem/1.4 var(--body); box-shadow: 0 12px 32px -12px rgba(0,0,0,.8); opacity: 0; transform: translate(-50%, 12px); pointer-events: none; transition: opacity .25s, transform .25s; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+@media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+
+/* Small label after a showreel title, e.g. "Prototype" */
+.reel-list .t-tag { display: inline-block; vertical-align: middle; margin-left: .5em; padding: .3em .75em; border: 1px solid var(--edge); border-radius: 999px; font: 600 clamp(.75rem, 1.2vw, .9rem)/1 var(--body); letter-spacing: 0; color: var(--muted); }

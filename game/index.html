@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | TheBalls</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <title>Ball Sim — Unitdice</title>
+    <meta name="description" content="Ball Sim is a ball game in development by Unitdice. The lobby, shop, inventory and achievements are ready to look around; gameplay comes next.">
+    <link rel="canonical" href="https://unitdice.com/game/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Unitdice">
+    <meta property="og:title" content="Ball Sim — Unitdice">
+    <meta property="og:description" content="A ball game in development. Look around the lobby, shop, inventory and achievements in your browser.">
+    <meta property="og:url" content="https://unitdice.com/game/">
+    <meta property="og:image" content="https://unitdice.com/og-image.png?v=2">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/logo.png">
+    <style>
+      .ud-home { position: fixed; top: 12px; left: 12px; z-index: 10; padding: 6px 12px; border-radius: 999px; background: rgba(5,6,15,.75); color: #fff; font: 500 14px/1.4 system-ui, sans-serif; text-decoration: none; }
+      .ud-home:hover, .ud-home:focus-visible { background: rgba(5,6,15,.95); }
+    </style>
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+    <a class="ud-home" href="/">&larr; Unitdice</a>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1688 height=780 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -20,7 +35,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">TheBalls</div>
+        <div id="unity-build-title">Ball Sim</div>
       </div>
     </div>
     <script>

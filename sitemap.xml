@@ -14,4 +14,12 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://unitdice.com/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://unitdice.com/"/>
   </url>
+  <url>
+    <loc>https://unitdice.com/delivery/</loc>
+    <lastmod>2026-10-10</lastmod>
+  </url>
+  <url>
+    <loc>https://unitdice.com/game/</loc>
+    <lastmod>2026-10-10</lastmod>
+  </url>
 </urlset>

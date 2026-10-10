@@ -4,15 +4,16 @@ export function initLightbox() {
   const title = document.getElementById('lbTitle'), fail = document.getElementById('lbFail'), drive = document.getElementById('lbDrive');
   const closeBtn = document.getElementById('lbClose');
   const SRC = ['/videos/survivors.mp4', '/videos/dungeon.mp4'];
+  const POSTER = ['/images/survivors-poster.jpg', '/images/dungeon-poster.jpg'];
   let lastFocus = null;
   function open(i, link) {
     lastFocus = link;
-    title.textContent = (link.querySelector('.t') || link).textContent;
+    const t = link.querySelector('.t'); title.textContent = (t ? t.firstChild.textContent : link.textContent).trim();
     drive.href = link.href; fail.hidden = true; vid.hidden = false;
     document.getElementById('cursorCard').classList.remove('show');
     box.hidden = false; requestAnimationFrame(() => box.classList.add('open'));
     document.documentElement.style.overflow = 'hidden';
-    vid.src = SRC[i]; vid.currentTime = 0;
+    vid.poster = POSTER[i]; vid.src = SRC[i]; vid.currentTime = 0;
     vid.play().catch(() => {});
     closeBtn.focus();
   }
