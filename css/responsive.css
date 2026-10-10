@@ -1,0 +1,22 @@
+/* Tablet and phone layouts */
+@media (max-width: 900px) {
+  .products { grid-template-columns: 1fr; }
+  .area { grid-template-columns: 1fr; }
+  .area .fig { order: -1; }
+  .product { min-height: 0; }
+}
+@media (max-width: 760px) {
+  .top { flex-wrap: wrap; row-gap: 0.6rem; padding-top: 0.75rem; padding-bottom: 0.6rem; }
+  .nav, .nav nav { display: contents; }
+  .lang { order: 2; }
+  .links { order: 3; width: 100%; overflow-x: auto; justify-content: space-between; }
+  .links a { padding: 0.4rem 0.35rem; font-size: 0.86rem; }
+  header.bar { background: rgba(5,6,15,0.7); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); }
+  .hero { margin-top: -7.5rem; padding-top: 7.5rem; min-height: 0; }
+  .hero-grid { grid-template-columns: 1fr; }
+  .roller { justify-items: start; width: auto; }
+  .roller .die { --s: 7.5rem; }
+  .result { text-align: left; max-width: none; }
+  footer address { text-align: left; }
+  .reel-list .play { display: none; }
+}

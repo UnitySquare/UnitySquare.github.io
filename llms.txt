@@ -1,0 +1,23 @@
+# Unitdice
+
+> Unitdice is an early-stage studio in Gwangju, South Korea. It develops games, AI games where AI writes the story and the choices, and AI-driven services.
+
+Korean / 한국어: Unitdice는 대한민국 광주에 있는 초기 스타트업 스튜디오입니다. 게임 개발, AI가 스토리와 선택지를 쓰는 AI 게임, AI 기반 서비스를 만듭니다.
+
+## What we do
+- Game development: Original games we plan and build ourselves, from fast action to physics-driven play, ready to play in the browser.
+- AI-native games: Games where AI is part of the creative work: it writes the story and the choices, so every playthrough can unfold differently.
+- AI-driven services: Services with AI inside, like an assistant that answers questions from your documents, and services we build with AI, like delivery route optimization.
+
+## Products
+- [RAG assistant](https://chat.unitdice.com/): A retrieval-augmented question-answering assistant built with LangGraph.
+- [Ball Sim](https://www.unitdice.com/game): A ball game in development. The lobby, shop, inventory and achievements are ready to look around; gameplay comes next.
+- [Gwangju delivery route optimizer](https://www.unitdice.com/delivery/): Computes optimized parcel delivery routes across Gwangju.
+
+## Pages
+- [English](https://www.unitdice.com/)
+- [한국어](https://www.unitdice.com/ko/)
+
+## Contact
+- Email: contact@unitdice.com
+- Location: Gwangju, Republic of Korea

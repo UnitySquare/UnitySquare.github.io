@@ -1,0 +1,34 @@
+/* The six hero styles chosen by the dice (data-v="1".."6") */
+/* Hero style variants (switched by the dice) */
+#net { transition: opacity .35s; }
+.hero.swap #net, .hero.swap .hero-copy { opacity: 0; }
+.hero-copy { transition: opacity .35s; }
+.hero .scan { position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity .4s;
+  background: repeating-linear-gradient(to bottom, rgba(255,255,255,.035) 0 1px, transparent 1px 3px); }
+.hero .orb { transition: opacity .5s; }
+/* 2: terminal */
+.hero[data-v="2"] .scan { opacity: 1; }
+.hero[data-v="2"] .orb { opacity: 0; }
+.hero[data-v="2"] h1, .hero[data-v="2"] .lede { font-family: "JetBrains Mono", "Noto Sans KR", ui-monospace, monospace; }
+.hero[data-v="2"] h1 { font-weight: 700; letter-spacing: -0.09em; }
+.hero[data-v="2"] .rot span.in::after { content: ""; display: inline-block; width: .5em; height: .9em; margin-left: .12em; vertical-align: -.08em; background: var(--accent); animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.hero[data-v="2"] .btn { border-radius: 0.2rem; font-family: "JetBrains Mono", "Noto Sans KR", monospace; }
+
+/* 3: grid horizon */
+.hero[data-v="3"] .orb.o1 { opacity: 0; }
+.hero[data-v="3"] h1 { font-weight: 700; letter-spacing: -0.05em; }
+/* 4: dot waves */
+.hero[data-v="4"] .orb { opacity: .25; }
+.hero[data-v="4"] h1 { font-weight: 500; letter-spacing: -0.05em; }
+/* 5: flow field, editorial serif */
+.hero[data-v="5"] .orb { opacity: .3; }
+.hero[data-v="5"] h1 { font-family: "Instrument Serif", "Noto Serif KR", Georgia, serif; font-weight: 400; letter-spacing: -0.02em; font-size: clamp(2.8rem, 8vw, 6.4rem); line-height: 1; }
+:lang(ko) .hero[data-v="5"] h1 { font-weight: 600; font-size: clamp(2.3rem, 6vw, 4.6rem); line-height: 1.15; }
+.hero[data-v="5"] .rot span { font-style: italic; }
+:lang(ko) .hero[data-v="5"] .rot span { font-style: normal; }
+.hero[data-v="5"] .rot { height: 1.12em; }
+/* 6: orbit sphere, outlined type */
+.hero[data-v="6"] .orb { opacity: .2; }
+.hero[data-v="6"] h1 .line { color: transparent; -webkit-text-stroke: 1.5px var(--ink); }
+@media (prefers-reduced-motion: reduce) { .hero[data-v="2"] .rot span.in::after { animation: none; } }

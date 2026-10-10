@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#05060F">
+<title>유닛다이스 Unitdice — 광주 게임·AI 스타트업</title>
+<meta name="description" content="유닛다이스(Unitdice)는 광주의 초기 스타트업 스튜디오로, 게임 개발, AI가 스토리를 쓰는 AI 게임, AI 기반 서비스를 만듭니다.">
+<!--SEO-->
+<link rel="canonical" href="https://www.unitdice.com/ko/">
+<link rel="alternate" hreflang="en" href="https://www.unitdice.com/">
+<link rel="alternate" hreflang="ko" href="https://www.unitdice.com/ko/">
+<link rel="alternate" hreflang="x-default" href="https://www.unitdice.com/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Unitdice">
+<meta property="og:title" content="유닛다이스 Unitdice — 광주 게임·AI 스타트업">
+<meta property="og:description" content="유닛다이스(Unitdice)는 광주의 초기 스타트업 스튜디오로, 게임 개발, AI가 스토리를 쓰는 AI 게임, AI 기반 서비스를 만듭니다.">
+<meta property="og:url" content="https://www.unitdice.com/ko/">
+<meta property="og:image" content="https://www.unitdice.com/og-image-ko.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="유닛다이스 Unitdice — 광주 게임·AI 스타트업">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="유닛다이스 Unitdice — 광주 게임·AI 스타트업">
+<meta name="twitter:description" content="유닛다이스(Unitdice)는 광주의 초기 스타트업 스튜디오로, 게임 개발, AI가 스토리를 쓰는 AI 게임, AI 기반 서비스를 만듭니다.">
+<meta name="twitter:image" content="https://www.unitdice.com/og-image-ko.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://www.unitdice.com/#org",
+   "name": "Unitdice",
+   "alternateName": "유닛다이스",
+   "url": "https://www.unitdice.com/",
+   "logo": "https://www.unitdice.com/logo.png",
+   "email": "contact@unitdice.com",
+   "description": "Unitdice는 대한민국 광주에 있는 초기 스타트업 스튜디오입니다. 게임 개발, AI가 스토리와 선택지를 쓰는 AI 게임, AI 기반 서비스를 만듭니다.",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "광주광역시",
+    "addressCountry": "KR"
+   },
+   "knowsAbout": [
+    "Game development",
+    "AI games",
+    "AI storytelling",
+    "Retrieval-augmented generation",
+    "Route optimization"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://www.unitdice.com/#website",
+   "url": "https://www.unitdice.com/",
+   "name": "Unitdice",
+   "inLanguage": [
+    "en",
+    "ko"
+   ],
+   "publisher": {
+    "@id": "https://www.unitdice.com/#org"
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://www.unitdice.com/ko/#webpage",
+   "url": "https://www.unitdice.com/ko/",
+   "name": "유닛다이스 Unitdice — 광주 게임·AI 스타트업",
+   "description": "유닛다이스(Unitdice)는 광주의 초기 스타트업 스튜디오로, 게임 개발, AI가 스토리를 쓰는 AI 게임, AI 기반 서비스를 만듭니다.",
+   "inLanguage": "ko",
+   "isPartOf": {
+    "@id": "https://www.unitdice.com/#website"
+   },
+   "about": {
+    "@id": "https://www.unitdice.com/#org"
+   }
+  },
+  {
+   "@type": "SoftwareApplication",
+   "name": "RAG 어시스턴트",
+   "description": "LangGraph로 구축한 검색 증강(RAG) 질의응답 어시스턴트입니다.",
+   "url": "https://chat.unitdice.com/",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "publisher": {
+    "@id": "https://www.unitdice.com/#org"
+   }
+  },
+  {
+   "@type": "VideoGame",
+   "name": "볼심 (Ball Sim)",
+   "description": "개발 중인 공 게임입니다. 로비, 상점, 인벤토리, 업적 화면을 먼저 둘러볼 수 있고, 플레이 화면은 다음 단계로 준비하고 있습니다.",
+   "url": "https://www.unitdice.com/game",
+   "gamePlatform": "Web browser",
+   "creativeWorkStatus": "개발 중",
+   "publisher": {
+    "@id": "https://www.unitdice.com/#org"
+   }
+  },
+  {
+   "@type": "SoftwareApplication",
+   "name": "광주 택배 경로 최적화",
+   "description": "광주 지역의 택배 배송 경로를 최적화해 산출합니다.",
+   "url": "https://www.unitdice.com/delivery/",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "publisher": {
+    "@id": "https://www.unitdice.com/#org"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://www.unitdice.com/ko/#faq",
+   "inLanguage": "ko",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Unitdice는 어떤 회사인가요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Unitdice는 대한민국 광주에 있는 초기 스타트업 스튜디오입니다. 게임 개발, AI가 스토리와 선택지를 쓰는 AI 게임, AI 기반 서비스를 만듭니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Unitdice는 무엇을 만드나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "문서를 근거로 질문에 답하는 RAG 어시스턴트(chat.unitdice.com), 개발 중인 공 게임 볼심, AI로 개발한 광주 택배 경로 최적화 서비스가 있습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Unitdice는 어디에 있나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "대한민국 광주광역시에 있습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Unitdice에 어떻게 연락하나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "협업, 시범 도입, 제품 피드백은 contact@unitdice.com으로 메일을 보내 주세요."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<!--/SEO-->
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&family=Instrument+Serif:ital@0;1&family=Noto+Serif+KR:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/layout.css">
+<link rel="stylesheet" href="/css/hero-styles.css">
+<link rel="stylesheet" href="/css/components.css">
+<link rel="stylesheet" href="/css/responsive.css">
+<link rel="stylesheet" href="/css/motion.css">
+</head>
+<body id="top">
+<div class="noise" aria-hidden="true"></div>
+<div class="glow" id="glow" aria-hidden="true"></div>
+
+<header class="bar" id="bar">
+  <div class="wrap top">
+    <a class="brand" href="#top"><span class="logo" aria-hidden="true"></span>Unitdice</a>
+    <div class="nav">
+      <nav aria-label="Sections">
+        <ul class="links">
+          <li><a href="#business" data-i18n="navBusiness">사업 분야</a></li>
+          <li><a href="#products" data-i18n="navProducts">제품</a></li>
+          <li><a href="#games" data-i18n="navGames">게임</a></li>
+          <li><a href="#contact" data-i18n="navContact">문의</a></li>
+        </ul>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">EN</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko" aria-current="page">한국어</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="cursor-card" id="cursorCard" aria-hidden="true">
+  <video data-src="/videos/survivors.mp4" muted loop playsinline preload="none"></video>
+  <video data-src="/videos/dungeon.mp4" muted loop playsinline preload="none"></video>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lbTitle" hidden>
+  <div class="lb-inner">
+    <div class="lb-head"><h3 id="lbTitle"></h3><button type="button" class="lb-close" id="lbClose" aria-label="Close"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13"/></svg></button></div>
+    <video id="lbVideo" controls playsinline preload="metadata"></video>
+    <p class="lb-fail" id="lbFail" hidden><span data-i18n="vidFail">여기서 영상을 불러오지 못했어요.</span> <a id="lbDrive" target="_blank" rel="noopener" data-i18n="vidDrive">구글 드라이브에서 보기</a></p>
+  </div>
+</div>
+
+<main>
+  <div class="hero" id="hero" data-v="1">
+    <canvas id="net" aria-hidden="true"></canvas>
+    <div class="orb o1" aria-hidden="true"></div>
+    <div class="orb o2" aria-hidden="true"></div>
+    <div class="scan" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 class="rv" style="--i:0">
+          <span class="line" data-i18n="h1pre">우리는</span>
+          <span class="rot" id="rot" aria-live="off"><span class="in">게임을</span></span>
+          <span class="line" data-i18n="h1suf">만듭니다.</span>
+        </h1>
+        <p class="lede rv" style="--i:1" data-i18n="lede">게임을 개발하고, AI로 더 창의적인 게임을 만들고, AI 기반 서비스를 만듭니다.</p>
+        <div class="ctas rv" style="--i:2">
+          <a class="btn primary" href="#products"><span data-i18n="ctaProducts">제품 써 보기</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+          <a class="btn ghost" href="#contact" data-i18n="ctaContact">함께하기</a>
+        </div>
+      </div>
+      <div class="roller rv" style="--i:2">
+        <div class="die-wrap"><button class="die" id="bigDie" data-face="1" type="button" aria-label="Roll the die to change the style"></button></div>
+        <p class="result" id="result" aria-live="polite">주사위를 굴려 보세요</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="track" id="track">
+      <span>Retrieval-augmented generation</span><span>LangGraph</span><span>AI assistants</span><span>Procedural generation</span><span>Game development</span><span>AI-powered game development</span><span>AI storytelling</span><span>AI services</span><span>Route optimization</span><span>Browser games</span>
+    </div>
+  </div>
+
+  <section class="block" id="business">
+    <div class="wrap">
+      <div class="head rv">
+        <h2 data-i18n="bizTitle">사업 분야</h2>
+        <p data-i18n="bizNote">게임과 AI를 중심으로 세 가지 사업을 합니다.</p>
+      </div>
+      <div class="areas">
+        <article class="card area rv" style="--i:0">
+          <div class="area-text">
+            <span class="num">01</span>
+            <h3 data-i18n="a1">게임 개발</h3>
+            <p class="lead" data-i18n="a1d">빠른 액션부터 물리 기반 플레이까지, 직접 기획하고 개발하는 오리지널 게임을 브라우저에서 바로 즐길 수 있게 만듭니다.</p>
+            <ul class="offer"><li data-i18n="o11">액션 게임</li><li data-i18n="o12">시뮬레이션 게임</li><li data-i18n="o13">브라우저 게임</li></ul>
+            <p class="related"><span data-i18n="relLabel">관련 제품</span><a href="https://unitdice.com/game" data-i18n="p2">볼심 (Ball Sim)</a><a href="https://drive.google.com/file/d/1MJIk4n1jhYIPDwm3eHZN9Ue2HL6F9wXa/view" target="_blank" rel="noopener" data-play-video="0" data-i18n="p4">뱀서류 액션 게임</a></p>
+          </div>
+          <div class="fig" aria-hidden="true"><svg viewBox="0 0 260 170">
+            <defs><pattern id="g0" width="13" height="13" patternUnits="userSpaceOnUse"><path class="grid" d="M13 0H0V13" fill="none"/></pattern></defs>
+            <rect width="260" height="170" fill="url(#g0)"/>
+            <circle class="enemy" r="5"><animate attributeName="cx" values="273;168" dur="3.2s" begin="-0.00s" repeatCount="indefinite"/><animate attributeName="cy" values="121;100" dur="3.2s" begin="-0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="3.2s" begin="-0.00s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="220;154" dur="3.7s" begin="-0.37s" repeatCount="indefinite"/><animate attributeName="cy" values="176;120" dur="3.7s" begin="-0.37s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="3.7s" begin="-0.37s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="132;131" dur="4.2s" begin="-0.74s" repeatCount="indefinite"/><animate attributeName="cy" values="198;128" dur="4.2s" begin="-0.74s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="4.2s" begin="-0.74s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="44;107" dur="3.2s" begin="-1.11s" repeatCount="indefinite"/><animate attributeName="cy" values="178;121" dur="3.2s" begin="-1.11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="3.2s" begin="-1.11s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="-12;92" dur="3.7s" begin="-1.48s" repeatCount="indefinite"/><animate attributeName="cy" values="123;101" dur="3.7s" begin="-1.48s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="3.7s" begin="-1.48s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="-13;92" dur="4.2s" begin="-1.85s" repeatCount="indefinite"/><animate attributeName="cy" values="55;76" dur="4.2s" begin="-1.85s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="4.2s" begin="-1.85s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="40;106" dur="3.2s" begin="-2.22s" repeatCount="indefinite"/><animate attributeName="cy" values="-0;56" dur="3.2s" begin="-2.22s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="3.2s" begin="-2.22s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="128;129" dur="3.7s" begin="-2.59s" repeatCount="indefinite"/><animate attributeName="cy" values="-22;48" dur="3.7s" begin="-2.59s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="3.7s" begin="-2.59s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="216;153" dur="4.2s" begin="-2.96s" repeatCount="indefinite"/><animate attributeName="cy" values="-2;55" dur="4.2s" begin="-2.96s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="4.2s" begin="-2.96s" repeatCount="indefinite"/></circle><circle class="enemy" r="5"><animate attributeName="cx" values="272;168" dur="3.2s" begin="-3.33s" repeatCount="indefinite"/><animate attributeName="cy" values="53;75" dur="3.2s" begin="-3.33s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="3.2s" begin="-3.33s" repeatCount="indefinite"/></circle>
+            <g transform="translate(130 88)">
+              <circle class="aura" r="38"/>
+              <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2.2s" repeatCount="indefinite"/>
+                <circle class="shot" cx="38" cy="0" r="4"/><circle class="shot" cx="-38" cy="0" r="4"/><circle class="shot" cx="0" cy="38" r="4"/></g>
+              <circle class="player" r="7"/>
+            </g>
+          </svg></div>
+        </article>
+        <article class="card area rv" style="--i:1">
+          <div class="area-text">
+            <span class="num">02</span>
+            <h3 data-i18n="a2">AI 게임</h3>
+            <p class="lead" data-i18n="a2d">AI가 스토리와 선택지를 직접 써서, 플레이할 때마다 다르게 펼쳐지는 창의적인 게임을 만듭니다.</p>
+            <ul class="offer"><li data-i18n="o21">AI 스토리 생성</li><li data-i18n="o22">선택형 스토리 게임</li><li data-i18n="o23">플레이마다 새로운 콘텐츠</li></ul>
+          </div>
+          <div class="fig" aria-hidden="true"><svg viewBox="0 0 260 170">
+            <defs><pattern id="g1" width="13" height="13" patternUnits="userSpaceOnUse"><path class="grid" d="M13 0H0V13" fill="none"/></pattern></defs>
+            <rect width="260" height="170" fill="url(#g1)"/>
+            <text class="lbl gen" x="12" y="16" style="text-anchor:start" data-i18n="fGen">AI가 쓰는 이야기</text>
+            <path class="edge" d="M59 92C79.0 92 79.0 58 99 58"/><path class="edge" d="M59 92C79.0 92 79.0 126 99 126"/><path class="edge" d="M145 58C164.0 58 164.0 34 183 34"/><path class="edge" d="M145 58C164.0 58 164.0 80 183 80"/><path class="edge" d="M145 126C164.0 126 164.0 112 183 112"/><path class="edge" d="M145 126C164.0 126 164.0 150 183 150"/>
+            <g class="branch hot" style="--d:0"><rect x="13.0" y="81.0" width="46" height="22" rx="4"/><rect class="ln" x="19.0" y="87" width="32" height="2.5" rx="1"/><rect class="ln" x="19.0" y="93.5" width="24" height="2.5" rx="1"/></g><g class="branch" style="--d:1"><rect x="99.0" y="47.0" width="46" height="22" rx="4"/><rect class="ln" x="105.0" y="53" width="32" height="2.5" rx="1"/><rect class="ln" x="105.0" y="59.5" width="24" height="2.5" rx="1"/></g><g class="branch" style="--d:2"><rect x="99.0" y="115.0" width="46" height="22" rx="4"/><rect class="ln" x="105.0" y="121" width="32" height="2.5" rx="1"/><rect class="ln" x="105.0" y="127.5" width="24" height="2.5" rx="1"/></g><g class="branch" style="--d:3"><rect x="183.0" y="23.0" width="46" height="22" rx="4"/><rect class="ln" x="189.0" y="29" width="32" height="2.5" rx="1"/><rect class="ln" x="189.0" y="35.5" width="24" height="2.5" rx="1"/></g><g class="branch" style="--d:4"><rect x="183.0" y="69.0" width="46" height="22" rx="4"/><rect class="ln" x="189.0" y="75" width="32" height="2.5" rx="1"/><rect class="ln" x="189.0" y="81.5" width="24" height="2.5" rx="1"/></g><g class="branch" style="--d:5"><rect x="183.0" y="101.0" width="46" height="22" rx="4"/><rect class="ln" x="189.0" y="107" width="32" height="2.5" rx="1"/><rect class="ln" x="189.0" y="113.5" width="24" height="2.5" rx="1"/></g><g class="branch" style="--d:6"><rect x="183.0" y="139.0" width="46" height="22" rx="4"/><rect class="ln" x="189.0" y="145" width="32" height="2.5" rx="1"/><rect class="ln" x="189.0" y="151.5" width="24" height="2.5" rx="1"/></g>
+            <circle class="reader" r="3.5"><animateMotion dur="5s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.7;1" calcMode="linear" path="M59 92C79.0 92 79.0 58 99 58 L145 58C164.0 58 164.0 80 183 80"/></circle>
+            <circle class="reader" r="3.5"><animateMotion dur="5s" begin="2.5s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.7;1" calcMode="linear" path="M59 92C79.0 92 79.0 126 99 126 L145 126C164.0 126 164.0 112 183 112"/></circle>
+          </svg></div>
+        </article>
+        <article class="card area rv" style="--i:2">
+          <div class="area-text">
+            <span class="num">03</span>
+            <h3 data-i18n="a3">AI 기반 서비스</h3>
+            <p class="lead" data-i18n="a3d">문서를 근거로 질문에 답하는 어시스턴트처럼 AI가 들어간 서비스, 그리고 택배 경로 최적화처럼 AI로 개발한 서비스를 만듭니다.</p>
+            <ul class="offer"><li data-i18n="o31">문서 질의응답 (RAG)</li><li data-i18n="o32">경로 최적화</li><li data-i18n="o33">AI 어시스턴트</li></ul>
+            <p class="related"><span data-i18n="relLabel">관련 제품</span><a href="https://chat.unitdice.com/" target="_blank" rel="noopener" data-i18n="p1">RAG 어시스턴트</a><a href="https://unitdice.com/delivery/" data-i18n="p3">광주 택배 경로 최적화</a></p>
+          </div>
+          <div class="fig" aria-hidden="true"><svg viewBox="0 0 260 170">
+            <defs>
+              <marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4L0 8z" fill="rgba(255,255,255,.3)"/></marker>
+            </defs>
+            <path class="flow" id="f1" d="M52 70H78" marker-end="url(#ar)"/>
+            <path class="flow" id="f2" d="M122 70H148" marker-end="url(#ar)"/>
+            <path class="flow" id="f3" d="M191 70H208" marker-end="url(#ar)"/>
+            <path class="flow" id="f4" d="M100 118V93" marker-end="url(#ar)"/>
+            <circle class="pkt" r="3"><animateMotion dur="2.4s" repeatCount="indefinite" path="M52 70H80"/></circle>
+            <circle class="pkt" r="3"><animateMotion dur="2.4s" begin=".6s" repeatCount="indefinite" path="M100 118V92"/></circle>
+            <circle class="pkt" r="3"><animateMotion dur="2.4s" begin=".8s" repeatCount="indefinite" path="M122 70H150"/></circle>
+            <circle class="pkt" r="3"><animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite" path="M191 70H210"/></circle>
+            <text class="lbl" x="32" y="38" data-i18n="fQ">질문</text>
+            <text class="lbl" x="100" y="38" data-i18n="fR">검색</text>
+            <text class="lbl" x="170" y="38" data-i18n="fG">생성</text>
+            <text class="lbl" x="230" y="38" data-i18n="fA">답변</text>
+            <circle class="node" cx="32" cy="70" r="19"/><path class="ico" d="M24 64h16v9h-9l-5 4v-4h-2z"/>
+            <circle class="node" cx="100" cy="70" r="19"/><circle class="ico" cx="97" cy="67" r="6"/><path class="ico" d="M101.5 71.5L107 77"/>
+            <circle class="node hot" cx="170" cy="70" r="19"/><path class="ico" d="M170 60l2.6 6.4 6.4 2.6-6.4 2.6-2.6 6.4-2.6-6.4-6.4-2.6 6.4-2.6z" style="stroke:#fff"/>
+            <circle class="node" cx="230" cy="70" r="19"/><path class="ico" d="M222 70l5 5 10-10"/>
+            <rect class="doc" x="80" y="128" width="26" height="30" rx="2"/><rect class="doc" x="87" y="124" width="26" height="30" rx="2"/><rect class="doc" x="94" y="120" width="26" height="30" rx="2"/>
+            <text class="lbl" x="130" y="140" style="text-anchor:start" data-i18n="fD">참고 자료</text>
+          </svg></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="products">
+    <div class="wrap">
+      <div class="head rv">
+        <h2 data-i18n="prodTitle">제품</h2>
+        <p data-i18n="prodNote">브라우저에서 바로 써 볼 수 있는 데모입니다.</p>
+      </div>
+      <div class="products">
+        <article class="card product rv tilt" style="--i:0">
+          <div class="meta"><span class="chip" data-i18n="tagAI">AI 서비스</span><span class="live"><span class="pulse"></span><span data-i18n="live">데모 운영 중</span></span></div>
+          <h3 data-i18n="p1">RAG 어시스턴트</h3>
+          <p data-i18n="p1d">LangGraph로 구축한 검색 증강(RAG) 질의응답 어시스턴트입니다.</p>
+          <a class="go" href="https://chat.unitdice.com/" target="_blank" rel="noopener"><span data-i18n="demo">데모 보기</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+        </article>
+        <article class="card product rv tilt" style="--i:1">
+          <div class="meta"><span class="chip" data-i18n="tagGame">게임</span><span class="live dev"><span class="dot"></span><span data-i18n="dev">개발 중</span></span></div>
+          <h3 data-i18n="p2">볼심 (Ball Sim)</h3>
+          <p data-i18n="p2d">개발 중인 공 게임입니다. 로비, 상점, 인벤토리, 업적 화면을 먼저 둘러볼 수 있고, 플레이 화면은 다음 단계로 준비하고 있습니다.</p>
+          <a class="go" href="https://unitdice.com/game"><span data-i18n="preview">미리 보기</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+        </article>
+        <article class="card product rv tilt" style="--i:2">
+          <div class="meta"><span class="chip" data-i18n="tagBuilt">AI로 개발</span><span class="live"><span class="pulse"></span><span data-i18n="live">데모 운영 중</span></span></div>
+          <h3 data-i18n="p3">광주 택배 경로 최적화</h3>
+          <p data-i18n="p3d">광주 지역의 택배 배송 경로를 최적화해 산출합니다.</p>
+          <a class="go" href="https://unitdice.com/delivery/"><span data-i18n="demo">데모 보기</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="games">
+    <div class="wrap">
+      <div class="head rv">
+        <h2 data-i18n="gamesTitle">게임</h2>
+        <p data-i18n="gamesNote">제목에 마우스를 올리면 미리 보기가, 클릭하면 전체 영상이 재생됩니다.</p>
+      </div>
+      <div class="reel">
+        <ul class="reel-list">
+          <li class="rv" style="--i:0">
+            <a href="https://drive.google.com/file/d/1MJIk4n1jhYIPDwm3eHZN9Ue2HL6F9wXa/view" target="_blank" rel="noopener" data-video="0">
+              <span><span class="t" data-i18n="p4">뱀서류 액션 게임</span><span class="d" data-i18n="p4d">끝없이 몰려오는 적을 막아 내며 판마다 강해지는 액션 게임입니다.</span></span>
+              <span class="play" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 2.5v11l9-5.5z"/></svg></span>
+            </a>
+            <video class="inline-vid" data-src="/videos/survivors.mp4" muted loop playsinline preload="none"></video>
+          </li>
+          <li class="rv" style="--i:1">
+            <a href="https://drive.google.com/file/d/1Z2uxGO4XgXYLdwN-K-b8ZwhyXW03UYQ8/view" target="_blank" rel="noopener" data-video="1">
+              <span><span class="t" data-i18n="p5">무작위 던전 생성</span><span class="d" data-i18n="p5d">플레이할 때마다 새로운 던전 구조를 생성하는 시스템입니다.</span></span>
+              <span class="play" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 2.5v11l9-5.5z"/></svg></span>
+            </a>
+            <video class="inline-vid" data-src="/videos/dungeon.mp4" muted loop playsinline preload="none"></video>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block faq" id="faq">
+    <div class="wrap">
+      <div class="head rv">
+        <h2 data-i18n="faqTitle">자주 묻는 질문</h2>
+      </div>
+      <div class="faq-list">
+        <details class="rv" style="--i:0"><summary data-i18n="fq1">Unitdice는 어떤 회사인가요?</summary><p data-i18n="fa1">Unitdice는 대한민국 광주에 있는 초기 스타트업 스튜디오입니다. 게임 개발, AI가 스토리와 선택지를 쓰는 AI 게임, AI 기반 서비스를 만듭니다.</p></details>
+        <details class="rv" style="--i:1"><summary data-i18n="fq2">Unitdice는 무엇을 만드나요?</summary><p data-i18n="fa2">문서를 근거로 질문에 답하는 RAG 어시스턴트(chat.unitdice.com), 개발 중인 공 게임 볼심, AI로 개발한 광주 택배 경로 최적화 서비스가 있습니다.</p></details>
+        <details class="rv" style="--i:2"><summary data-i18n="fq3">Unitdice는 어디에 있나요?</summary><p data-i18n="fa3">대한민국 광주광역시에 있습니다.</p></details>
+        <details class="rv" style="--i:3"><summary data-i18n="fq4">Unitdice에 어떻게 연락하나요?</summary><p data-i18n="fa4">협업, 시범 도입, 제품 피드백은 contact@unitdice.com으로 메일을 보내 주세요.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="wrap">
+      <div class="cta-box rv">
+        <h2 data-i18n="contactTitle">함께해요</h2>
+        <p data-i18n="contactNote">협업, 시범 도입, 제품에 대한 피드백 모두 환영합니다. 생각하시는 내용을 메일로 보내 주세요.</p>
+        <a class="btn primary" href="mailto:contact@unitdice.com"><span data-i18n="emailUs">메일 보내기</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+        <a class="mail" href="mailto:contact@unitdice.com">contact@unitdice.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="brand" href="#top"><span class="logo" aria-hidden="true"></span>Unitdice</a>
+      <p>&copy; <span id="year">2026</span> Unitdice. <span data-i18n="rights">All rights reserved.</span></p>
+    </div>
+    <address>
+      <span data-i18n="place">광주광역시, 대한민국</span><br>
+      <a href="mailto:contact@unitdice.com">contact@unitdice.com</a>
+    </address>
+  </div>
+</footer>
+
+<script type="module" src="/js/main.js"></script>
+</body>
+</html>

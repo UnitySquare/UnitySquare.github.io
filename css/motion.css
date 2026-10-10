@@ -1,0 +1,14 @@
+/* Scroll reveal and reduced-motion support */
+/* Scroll reveal */
+.rv { opacity: 0; transform: translateY(28px); filter: blur(6px); transition: opacity .9s cubic-bezier(.2,.8,.2,1), transform .9s cubic-bezier(.2,.8,.2,1), filter .9s; transition-delay: calc(var(--i, 0) * 90ms); }
+.rv.in { opacity: 1; transform: none; filter: none; }
+.rv.settled { transition: transform .35s cubic-bezier(.2,.8,.2,1), border-color .3s; transition-delay: 0s; }
+.hero .rv { transition-duration: 1.1s; }
+
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001s !important; animation-iteration-count: 1 !important; transition-duration: 0.001s !important; scroll-behavior: auto !important; }
+  .rv { opacity: 1; transform: none; filter: none; }
+  .fig .best { stroke-dashoffset: 0; }
+  .fig .room, .fig .branch { opacity: 1; }
+}
