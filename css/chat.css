@@ -94,8 +94,13 @@ html:root {
 }
 #n8n-chat .chat-window-toggle:hover { transform: translateY(-2px); box-shadow: 0 14px 36px -8px rgba(240,56,75,.85); }
 #n8n-chat .chat-window-toggle:focus-visible { outline: 2px solid var(--accent-soft); outline-offset: 3px; }
-#n8n-chat .chat-inputs { background: var(--bg2); }
-#n8n-chat .chat-input textarea { color: var(--ink); background: transparent; caret-color: var(--accent); }
+/* Input bar: text and send button centered vertically; left edge lines up with the message bubbles */
+#n8n-chat .chat-inputs { background: var(--bg2); align-items: center; padding: 0.5rem 0.4rem 0.5rem 0; }
+#n8n-chat .chat-inputs-controls { align-self: center; height: auto; }
+#n8n-chat .chat-input-send-button { margin: 0; height: 2.5rem; width: 2.5rem; padding: 0; justify-content: center; border-radius: 0.6rem; }
+#n8n-chat .chat-input-send-button:hover:not(:disabled) { background: var(--glass2); }
+#n8n-chat .chat-input-send-button svg { width: 20px; height: 20px; }
+#n8n-chat .chat-input textarea { margin: 0; min-height: 2.5rem; padding: 0.55rem 0.5rem 0.55rem var(--chat--messages-list--padding); line-height: 1.4; color: var(--ink); background: transparent; caret-color: var(--accent); }
 #n8n-chat .chat-input-send-button:not(:disabled) { color: var(--accent); }
 #n8n-chat .chat-input textarea::placeholder { color: var(--dim); }
 #n8n-chat .chat-message-markdown a { color: var(--accent-soft); }
