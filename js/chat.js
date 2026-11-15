@@ -51,6 +51,7 @@ createChat({
   webhookUrl: CHAT_URL,
   mode: 'window',
   showWelcomeScreen: false,
+  loadPreviousSession: false,
   initialMessages: t.welcome,
   defaultLanguage: 'en',
   i18n: {
