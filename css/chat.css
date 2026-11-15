@@ -100,7 +100,9 @@ html:root {
 #n8n-chat .chat-input-send-button { margin: 0; height: 2.5rem; width: 2.5rem; padding: 0; justify-content: center; border-radius: 0.6rem; }
 #n8n-chat .chat-input-send-button:hover:not(:disabled) { background: var(--glass2); }
 #n8n-chat .chat-input-send-button svg { width: 20px; height: 20px; }
-#n8n-chat .chat-input textarea { margin: 0; min-height: 2.5rem; padding: 0.55rem 0.5rem 0.55rem var(--chat--messages-list--padding); line-height: 1.4; color: var(--ink); background: transparent; caret-color: var(--accent); }
+/* One text line (22px) + 9px top/bottom = exactly 40px, so the text sits in the middle of the box (n8n default box is 50px, which pushed the text up) */
+#n8n-chat { --chat--textarea--height: 40px; }
+#n8n-chat .chat-input textarea { margin: 0; height: 40px; min-height: 40px; padding: 9px 0.5rem 9px var(--chat--messages-list--padding); line-height: 22px; color: var(--ink); background: transparent; caret-color: var(--accent); }
 #n8n-chat .chat-input-send-button:not(:disabled) { color: var(--accent); }
 #n8n-chat .chat-input textarea::placeholder { color: var(--dim); }
 #n8n-chat .chat-message-markdown a { color: var(--accent-soft); }
