@@ -96,6 +96,18 @@ document.addEventListener('pointerdown', (e) => {
   if (!isOpen()) return;
   const r = root();
   const inside = r && (r.querySelector('.chat-window')?.contains(e.target) || r.querySelector('.chat-window-toggle')?.contains(e.target));
-  if (!inside) close();
+  if (!inside && !e.target.closest('[data-open-chat]')) close();
 });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+
+// Page links/buttons marked data-open-chat open the chat (their href="#contact" is the fallback if this script never loads).
+const open = () => {
+  if (!isOpen()) root()?.querySelector('.chat-window-toggle')?.click();
+  setTimeout(() => root()?.querySelector('.chat-input textarea')?.focus(), 350);
+};
+document.addEventListener('click', (e) => {
+  const trigger = e.target.closest('[data-open-chat]');
+  if (!trigger || !root()) return;
+  e.preventDefault();
+  open();
+});

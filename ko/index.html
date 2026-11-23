@@ -94,6 +94,17 @@
    }
   },
   {
+   "@type": "SoftwareApplication",
+   "name": "AI 문의 응대",
+   "description": "홈페이지 챗봇이 받은 문의에 AI가 답변 초안을 쓰고, 담당자가 Slack에서 승인하면 이메일로 답장이 나갑니다.",
+   "url": "https://unitdice.com/ko/",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "publisher": {
+    "@id": "https://unitdice.com/#org"
+   }
+  },
+  {
    "@type": "VideoGame",
    "name": "볼심(Ball Sim)",
    "description": "개발 중인 공 게임입니다. 로비, 상점, 인벤토리, 업적 화면을 먼저 둘러볼 수 있고, 플레이 화면은 다음 단계로 준비하고 있습니다.",
@@ -156,7 +167,7 @@
      "name": "Unitdice는 무엇을 만드나요?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "갤럭시 S25 사용설명서 기반 AI 챗봇인 Galaxy S25 도우미(chat.unitdice.com), 개발 중인 공 게임 볼심, 그리고 AI로 개발한 광주 배송 경로 비교 도구, IT 헬프데스크 예약 시스템(help.unitdice.com), 막차가 끊긴 뒤의 한국을 담은 웹 서비스 막차(개발 중)가 있습니다."
+      "text": "갤럭시 S25 사용설명서 기반 AI 챗봇인 Galaxy S25 도우미(chat.unitdice.com), 홈페이지 챗봇 문의에 AI가 답변 초안을 쓰고 담당자가 Slack에서 승인하면 이메일로 답장하는 AI 문의 응대, 개발 중인 공 게임 볼심, 그리고 AI로 개발한 광주 배송 경로 비교 도구, IT 헬프데스크 예약 시스템(help.unitdice.com), 막차가 끊긴 뒤의 한국을 담은 웹 서비스 막차(개발 중)가 있습니다."
      }
     },
     {
@@ -313,7 +324,7 @@
             <h3 data-i18n="a3">AI 서비스</h3>
             <p class="lead" data-i18n="a3d">문서를 읽고 질문에 답하는 어시스턴트처럼, AI가 직접 일하는 서비스를 만듭니다.</p>
             <ul class="offer"><li data-i18n="o31">문서 질의응답(RAG)</li><li data-i18n="o33">AI 어시스턴트</li><li data-i18n="o34">AI 업무 자동화</li></ul>
-            <p class="related"><span data-i18n="relLabel">관련 제품</span><a href="https://chat.unitdice.com/" target="_blank" rel="noopener" data-i18n="p1">Galaxy S25 도우미</a></p>
+            <p class="related"><span data-i18n="relLabel">관련 제품</span><a href="https://chat.unitdice.com/" target="_blank" rel="noopener" data-i18n="p1">Galaxy S25 도우미</a><a href="#contact" data-open-chat data-i18n="aq">AI 문의 응대</a></p>
           </div>
           <div class="fig" aria-hidden="true"><svg viewBox="0 0 260 170">
             <defs>
@@ -373,6 +384,12 @@
           <h3 data-i18n="p1">Galaxy S25 도우미</h3>
           <p data-i18n="p1d">갤럭시 S25 사용설명서를 근거로 질문에 답하는 AI 챗봇입니다. 빠르게 답하는 "빠름" 모드와 웹까지 확인하는 "신중+웹" 모드를 고를 수 있습니다.</p>
           <a class="go" href="https://chat.unitdice.com/" target="_blank" rel="noopener"><span data-i18n="demo">데모 보기</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+        </article>
+        <article class="card product rv tilt" style="--i:1">
+          <div class="meta"><span class="chip" data-i18n="tagAI">AI 서비스</span><span class="live"><span class="pulse"></span><span data-i18n="live">데모 운영 중</span></span></div>
+          <h3 data-i18n="aq">AI 문의 응대</h3>
+          <p data-i18n="aqd">홈페이지 챗봇이 받은 문의에 AI가 답변 초안을 쓰고, 담당자가 Slack에서 승인하면 이메일로 답장이 나갑니다.</p>
+          <a class="go" href="#contact" data-open-chat><span data-i18n="openChat">챗봇 열기</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 3.5h11v7h-6l-3 2.5v-2.5h-2z"/></svg></a>
         </article>
         <article class="card product rv tilt" style="--i:1">
           <div class="meta"><span class="chip" data-i18n="tagGame">게임</span><span class="live dev"><span class="dot"></span><span data-i18n="dev">개발 중</span></span></div>
@@ -436,7 +453,7 @@
       </div>
       <div class="faq-list">
         <details class="rv" style="--i:0"><summary data-i18n="fq1">Unitdice는 어떤 회사인가요?</summary><p data-i18n="fa1">Unitdice는 대한민국 광주에 있는 초기 스타트업 스튜디오입니다. 게임 개발, AI가 스토리와 선택지를 쓰는 AI 게임, AI 서비스, AI로 빠르게 만드는 업무 도구를 만듭니다.</p></details>
-        <details class="rv" style="--i:1"><summary data-i18n="fq2">Unitdice는 무엇을 만드나요?</summary><p data-i18n="fa2">갤럭시 S25 사용설명서 기반 AI 챗봇인 Galaxy S25 도우미(chat.unitdice.com), 개발 중인 공 게임 볼심, 그리고 AI로 개발한 광주 배송 경로 비교 도구, IT 헬프데스크 예약 시스템(help.unitdice.com), 막차가 끊긴 뒤의 한국을 담은 웹 서비스 막차(개발 중)가 있습니다.</p></details>
+        <details class="rv" style="--i:1"><summary data-i18n="fq2">Unitdice는 무엇을 만드나요?</summary><p data-i18n="fa2">갤럭시 S25 사용설명서 기반 AI 챗봇인 Galaxy S25 도우미(chat.unitdice.com), 홈페이지 챗봇 문의에 AI가 답변 초안을 쓰고 담당자가 Slack에서 승인하면 이메일로 답장하는 AI 문의 응대, 개발 중인 공 게임 볼심, 그리고 AI로 개발한 광주 배송 경로 비교 도구, IT 헬프데스크 예약 시스템(help.unitdice.com), 막차가 끊긴 뒤의 한국을 담은 웹 서비스 막차(개발 중)가 있습니다.</p></details>
         <details class="rv" style="--i:2"><summary data-i18n="fq3">Unitdice는 어디에 있나요?</summary><p data-i18n="fa3">대한민국 광주광역시에 있습니다.</p></details>
         <details class="rv" style="--i:3"><summary data-i18n="fq4">Unitdice에 어떻게 연락하나요?</summary><p data-i18n="fa4">협업, 시범 도입, 제품 피드백은 contact@unitdice.com으로 메일을 보내 주세요.</p></details>
       </div>
