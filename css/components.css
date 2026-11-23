@@ -95,6 +95,7 @@
 
 /* Products */
 .products { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; perspective: 1200px; }
+.products > .product:last-child:nth-child(odd) { grid-column: 1 / -1; min-height: 0; }   /* odd count: last card spans the row instead of sitting alone */
 .product { min-height: 15rem; }
 .product { padding: 1.75rem; display: flex; flex-direction: column; min-height: 17rem; transform-style: preserve-3d; }
 .product .meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.5rem; }
