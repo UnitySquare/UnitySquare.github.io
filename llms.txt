@@ -13,7 +13,7 @@ Korean / 한국어: Unitdice는 대한민국 광주에 있는 초기 스타트�
 ## Products
 - [Galaxy S25 Assistant](https://chat.unitdice.com/): An AI chatbot that answers questions from the Galaxy S25 user manual. Pick Fast mode for quick answers or Careful + Web mode to also check the web.
 - [AI inquiry replies](https://unitdice.com/): When someone asks a question in the website chatbot, AI drafts a reply. Once a team member approves it in Slack, the answer goes out by email.
-- [Ball Sim](https://unitdice.com/game/): A ball game in development. The lobby, shop, inventory and achievements are ready to look around; gameplay comes next.
+- [Ball Sim](https://unitdice.com/game/): A ball game in development. The basic mode's waves are playable in the browser; challenge and boss modes are coming next.
 - [Gwangju delivery route comparison](https://unitdice.com/delivery/): Compares an exact method and a cluster-based method on the same stops over Gwangju's real road network. Routes come out up to 92% shorter than visiting stops in no particular order.
 - [IT helpdesk booking](https://help.unitdice.com/): Book IT helpdesk visits by office in one-hour slots. Google Sheets works as the database: bookings are saved to the sheet, open slots are read from it, and admins manage bookings right in the sheet.
 - [Makcha](https://makcha-dev.unitdice.com/en): A web service for exploring Korea after the last train. It collects late-night places and scenes, from alleys and platforms to lit shop fronts, between the last train and the first. In development.
