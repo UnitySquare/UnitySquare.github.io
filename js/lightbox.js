@@ -3,8 +3,8 @@ export function initLightbox() {
   const box = document.getElementById('lightbox'), vid = document.getElementById('lbVideo');
   const title = document.getElementById('lbTitle'), fail = document.getElementById('lbFail'), drive = document.getElementById('lbDrive');
   const closeBtn = document.getElementById('lbClose');
-  const SRC = ['/videos/survivors.mp4', '/videos/dungeon.mp4'];
-  const POSTER = ['/images/survivors-poster.jpg', '/images/dungeon-poster.jpg'];
+  const SRC = ['/videos/survivors.mp4', '/videos/dungeon.mp4', '/videos/n8n-demo.mp4'];
+  const POSTER = ['/images/survivors-poster.jpg', '/images/dungeon-poster.jpg', '/images/n8n-demo-poster.jpg'];
   let lastFocus = null;
   function open(i, link) {
     lastFocus = link;
